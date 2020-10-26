@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*----------------Nav bar-------------------*/
+#navbar{
+    background-image: -moz-linear-gradient(to right, #ff3399, #990099);
+    background-image: -webkit-linear-gradient(to right, #ff3399, #990099);
+    background-image: linear-gradient(to right, #ff3399, #990099);
+}
+#navbar a, #navbar .fa{
+    color: #fadcf2;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+#navbar a:hover, #navbar .fa:hover{
+    color: white;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+/*----------------Nav bar end----------------*/
+
+/*----------------Banner---------------------*/
+#banner{
+    background-image: -moz-linear-gradient(to right, #ff3399, #990099);
+    background-image: -webkit-linear-gradient(to right, #ff3399, #990099);
+    background-image: linear-gradient(to right, #ff3399, #990099);
+}
+
+#banner .boy{
+    background-image: url('../asset/boy.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#banner .about-brief{
+    font-family: 'Atma';
+}
+#banner .bio{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+#banner .btn-my{
+    background-image: linear-gradient(to right, #34ebc0, #34eb5f);
+}
+/*----------------Banner End-----------------*/
