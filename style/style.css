@@ -50,3 +50,60 @@
     background-image: linear-gradient(to right, #34ebc0, #34eb5f);
 }
 /*----------------Banner End-----------------*/
+
+/*----------------Services--------------------*/
+.section-heading::before{
+    content: '';
+    background-image: linear-gradient(to right, #ff3399, #990099);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+.section-heading::after{
+    content: '';
+    background-image: linear-gradient(to right, #ff3399, #990099);
+    height: 15px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(11px);
+}
+.section-heading{
+    font-variant: small-caps;
+}
+#services img{
+    border: 1px solid #990099;
+    border-radius: 50%;
+}
+#services .btn-my{
+    background-image: linear-gradient(to right, #ff3399, #990099);
+    color: white;
+}
+#services h4{
+    padding: 5px;
+    margin-top: 25px;
+}
+/*----------------Services End----------------*/
+/*----------------About-----------------------*/
+#about-us{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about-us .about-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 15px;
+}
+#about-us ul li{
+    margin: 10px 5px;
+}
+#about-us ul{
+    margin-left: 20px;
+}
