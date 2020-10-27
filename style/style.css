@@ -46,7 +46,7 @@
     font-size: 17px;
     letter-spacing: 1.5px;
 }
-#banner .btn-my{
+.btn-my{
     background-image: linear-gradient(to right, #34ebc0, #34eb5f);
 }
 /*----------------Banner End-----------------*/
@@ -107,3 +107,53 @@
 #about-us ul{
     margin-left: 20px;
 }
+/*----------------About End-------------------*/
+
+/*----------------testimonial-----------------*/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/*----------------testimonial end-------------*/
+
+/*--------------social-media------------------*/
+#social-media{
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons i{
+    width: 50px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.social-icons a:hover i{
+    transform: translateY(-10px);
+}
+/*--------------social-media end--------------*/
+
+/*-----------------Footer---------------------*/
+#footer{
+    background-image: -moz-linear-gradient(to right, #ff3399, #990099);
+    background-image: -webkit-linear-gradient(to right, #ff3399, #990099);
+    background-image: linear-gradient(to right, #ff3399, #990099);
+}
+/*---------------Footer End-------------------*/
