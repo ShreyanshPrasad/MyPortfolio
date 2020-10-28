@@ -39,7 +39,7 @@
     background-image: url('../asset/boy.svg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right center;
 }
 #banner .about-brief{
     font-family: 'Atma';
