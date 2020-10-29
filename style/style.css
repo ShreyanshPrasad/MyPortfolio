@@ -176,8 +176,8 @@
 
 /*---------------Scroll button----------------*/
 .scrollToTop{
-    width: 60px; 
-    height: 60px;
+    width: 50px; 
+    height: 50px;
     padding:10px; 
     background: whiteSmoke;
     font-weight: bold;
@@ -187,7 +187,6 @@
     bottom:25px;
     right:25px;
     display:none;
-    background: url('arrow_up.png') no-repeat 0px 20px;
 }
 .scrollToTop:hover{
     text-decoration:none;
