@@ -50,6 +50,13 @@
 .btn-my{
     background-image: linear-gradient(to right, #34ebc0, #34eb5f);
 }
+
+#emoji{
+    transform: rotate(90deg);
+    display: inline-block;
+    font-weight: 900;
+    font-size: large;
+}
 /*----------------Banner End-----------------*/
 
 /*----------------Services--------------------*/
@@ -125,7 +132,7 @@
 .testimonials{
     border-left: 4px solid #7b1798;
     margin-top: 50px;
-    margin-bottom: 50px;
+    
 }
 .testimonials img{
     height: 60px;
@@ -144,10 +151,14 @@
     background: #f8f9fa;
     padding: 50px 0;
 }
-#social-media p{
+#social-media .container > p{
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 30px;
+}
+#social-media .row{
+    position: relative;
+    top: 50px;
 }
 .social-icons i{
     width: 50px;
@@ -156,6 +167,15 @@
 }
 .social-icons a:hover i{
     transform: translateY(-10px);
+}
+
+
+.card-img-top{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -65px;
+    left: calc(50% - 60px);
 }
 /*--------------social-media end--------------*/
 
