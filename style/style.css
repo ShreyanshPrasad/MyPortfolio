@@ -167,8 +167,12 @@
 }
 .social-icons a:hover i{
     transform: translateY(-10px);
+    text-shadow: 5px 5px 7px #c1c1c1;
 }
 
+.card{
+    box-shadow: 0 10px 25px #b1b1b1;
+}
 
 .card-img-top{
     width: 120px;

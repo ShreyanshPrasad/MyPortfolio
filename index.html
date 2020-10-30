@@ -29,7 +29,7 @@
                   <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="./projects/">Projects</a>
                 </li>
                 <li class="nav-item mx-md-2">
                   <a class="nav-link" href="#services">Services</a>
@@ -168,13 +168,14 @@
                 
                 <div class="col-md-4">
                     <h3>Subscribe Newsletter</h3>
-                    <form action="" method="post">
-                        <p><input class="p-2 text-center" title="Email ID" type="text"
-                             placeholder="abc@xyz.com" required
-                             oninvalid="this.setCustomValidity('Email id is not valid')"
-                             oninput="setCustomValidity('')"></p>
-                        <p><input type="submit" class="btn btn-my" value="Submit"></p>
-                    </form>
+                    <p><input 
+                        class="p-2 text-center" title="Email ID" id="email" type="text"
+                        placeholder="abc@xyz.com" required
+                        oninvalid="this.setCustomValidity('Email id is not valid')"
+                        oninput="setCustomValidity('')"><br>
+                        <p class="statusMsg"></p>
+                    </p>
+                    <p><button id="subscribeBtn" class="btn btn-my submitBtn">Submit</button></p>
                 </div>
             </div>
         </div>
@@ -186,6 +187,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./script/scrollButton.js"></script>
+    <script src="./script/subscribe.js"></script>
     <script>
         
     </script>
