@@ -32,10 +32,10 @@
                   <a class="nav-link" href="#">Projects</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link contact" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -143,18 +143,23 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f9fa" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,112C672,107,768,149,864,170.7C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <div class="container text-light text-center">
             <div class="row">
+                <div class="col-md-4" id="contact">
+                    <h3>Contact me</h3>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+919504789166">9504789166</a><br>C/O Jai Prakash Prasad<br>Jail Campus, Sub Jail Khunti<br><b><i class="fa fa-map-marker" aria-hidden="true"></i> 835210</b> Jharkhand</p>
+                </div>
+
                 <div class="col-md-4">
                     <h3>ՏhɾҽվɑղՏh</h3>
                     <p>Thanks for visiting 🙏🏻<br>Stay creative, Stay productive</p>
                 </div>
-                <div class="col-md-4">
-                    <h3>Connect with me</h3>
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+919504789166">9504789166</a><br>C/O Jai Prakash Prasad<br>Jail Campus, Sub Jail Khunti<br> Jharkhand<br><b><i class="fa fa-map-marker" aria-hidden="true"></i> 835210</b></p>
-                </div>
+                
                 <div class="col-md-4">
                     <h3>Subscribe Newsletter</h3>
                     <form action="" method="post">
-                        <p><input class="p-2 text-center" type="text" placeholder="abc@xyz.com" required></p>
+                        <p><input class="p-2 text-center" title="Email ID" type="text"
+                             placeholder="abc@xyz.com" required
+                             oninvalid="this.setCustomValidity('Email id is not valid')"
+                             oninput="setCustomValidity('')"></p>
                         <p><input type="submit" class="btn btn-my" value="Submit"></p>
                     </form>
                 </div>
@@ -168,5 +173,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./script/scrollButton.js"></script>
+    <script>
+        
+    </script>
 </body>
 </html>
