@@ -24,7 +24,7 @@ if(isset($_POST['FrmSubmit']) && !empty($_POST['emailId'])){
     $subject = "Subscription successful";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= 'From: '.$fromEmail.'<'.$fromEmail.'>' . "\r\n".'Reply-To: '.'sshreyansh199@gmail.com'."\r\n" . 'X-Mailer: PHP/' . phpversion();
+    $headers .= 'From: Shreyansh<'.$fromEmail.'>' . "\r\n".'Reply-To: '.'sshreyansh199@gmail.com'."\r\n" . 'X-Mailer: PHP/' . phpversion();
     $message = '<html><body>
     <center class="wrapper" style="display: table;table-layout: fixed;width: 100%;min-width: 620px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;background-color: #ffffff;">
     <table class="top-panel center" width="602" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;border-spacing: 0;margin: 0 auto;width: 602px;">
