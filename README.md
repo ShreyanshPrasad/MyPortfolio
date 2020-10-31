@@ -1,0 +1,2 @@
+# MyPortfolio
+Hey there, this is Shreyansh, and I design and develope websites for small business, I love designing websites and am looking for more opportunities to work in coding on a freelance basis. While I'm based in Jharkhand India, I help build website for people all over the world. Apart from this I also develope Android applications(Java) and Windows application(VB.Net). So If you are looking for a Web developer or an Android/Windows developer I may help you in many ways :)
