@@ -1,0 +1,29 @@
+/*----------------Banner---------------------*/
+#banner{
+    background-image: -moz-linear-gradient(to right, #ff3399, #990099);
+    background-image: -webkit-linear-gradient(to right, #ff3399, #990099);
+    background-image: linear-gradient(to right, #ff3399, #990099);
+}
+
+#banner .boy{
+    background-image: url('../asset/boy.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#banner .about-brief{
+    font-family: 'Atma';
+}
+#banner .bio{
+    font-size: 17px;
+}
+
+#emoji{
+    transform: rotate(90deg);
+    display: inline-block;
+    font-weight: 900;
+    font-size: large;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+/*----------------Banner End-----------------*/

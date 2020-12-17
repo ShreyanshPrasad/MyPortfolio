@@ -9,45 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/banner.css">
+    <link rel="stylesheet" href="./style/services.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/testimonial.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <title>ՏhɾҽվɑղՏh</title>
 </head>
 <body>
-    <section id="navbar" class="sticky-top">
-        <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="#">
-                <img src="./asset/icon.png" alt="icon"> ՏhɾҽվɑղՏh
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="./projects/">Projects</a>
-                </li>
-                <li class="nav-item mx-md-2">
-                  <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item mx-md-2">
-                  <a class="nav-link contact" href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div>
-        </nav>
-    </section>
+    
+    <?php include './includes/html/nav.html'; ?>
 
     <section id="banner">
         <div class="container text-center text-light">
             <div class="row">
-                <div class="col-md-6 pt-5 about-brief">
+                <div class="col-md-6 pt-4 about-brief">
                     <h2 class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> The best time for <b>new beginnings</b> is <b>now</b></h2>
-                    <p class="bio">Hey there, this is <b>Shreyansh</b>, and I <b>design and develope websites</b> for small business, I love designing websites and am looking for more opportunities to work in coding on a freelance basis. While I'm based in Jharkhand India, I help build website for people all over the world. Apart from this I also develope <b>Android applications(Java)</b> and <b>Windows application(VB.Net)</b>. So If you are looking for a Web developer or an Android/Windows developer I may help you in many ways <span id="emoji">: )</span></p>
+                    <p class="bio">Hey there, this is <b>Shreyansh</b>, and I <b>design and develope websites</b> for small business, I love designing websites and am looking for more opportunities to work in coding on a freelance basis. While I'm based in Jharkhand India, I help build website for people all over the world. Apart from this I also develope <b>Android applications(Java)</b> and <b>Windows application(VB.Net)</b>. So If you are looking for a Web developer or an Android/Windows developer I may help you in many ways <span class="p-1 ml-2" id="emoji">: )</span></p>
                     <p><button class="btn btn-my">Know more</button></p>
                 </div>
                 <div class="col-md-6 boy">
@@ -78,7 +57,6 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam impedit qui maxime exercitationem ad voluptatibus molestiae? Aliquid vitae mollitia iste fugiat quam, saepe commodi minus impedit consequuntur architecto fuga eum.</p>
                 </div>
             </div>
-            <button class="btn btn-my">See Pricing</button>
         </div>
     </section>
 
@@ -127,69 +105,13 @@
         </div>
     </section>
 
-    <section id="social-media">
-        <div class="container text-center">
-            <p>Find me on social media</p>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="./asset/icon.png" alt="Card image">
-                        <div class="card-body mt-5">
-                          <h4 class="card-title">ՏhɾҽվɑղՏh</h4>
-                          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                          <div class="social-icons">
-                            <a href="https://m.facebook.com/shreyansh.prasadsinha" title="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                            <a href="https://api.whatsapp.com/send?phone=919504789166&text=Message!" title="WhatsApp"><i class="fa fa-whatsapp text-success" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/___Shreyansh" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://github.com/ShreyanshPrasad" title="GitHub"><i class="fa fa-github text-dark" aria-hidden="true"></i></a>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="footer">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f8f9fa" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,176C384,171,480,117,576,112C672,107,768,149,864,170.7C960,192,1056,192,1152,176C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-        <div class="container text-light text-center">
-            <div class="row">
-                <div class="col-md-4" id="contact">
-                    <h3>Contact me</h3>
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+919504789166">9504789166</a><br>C/O Jai Prakash Prasad<br>Jail Campus, Sub Jail Khunti<br><b><i class="fa fa-map-marker" aria-hidden="true"></i> 835210</b> Jharkhand</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h3>ՏhɾҽվɑղՏh</h3>
-                    <p>Thanks for visiting 🙏🏻<br>Stay creative, Stay productive</p>
-                </div>
-                
-                <div class="col-md-4">
-                    <h3>Subscribe Newsletter</h3>
-                    <p><input 
-                        class="p-2 text-center" title="Email ID" id="email" type="text"
-                        placeholder="abc@xyz.com" required
-                        oninvalid="this.setCustomValidity('Email id is not valid')"
-                        oninput="setCustomValidity('')"><br>
-                        <p class="statusMsg text-light"></p>
-                    </p>
-                    <p><button id="subscribeBtn" class="btn btn-my submitBtn">Submit</button></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <a href="javascript:void(0)" class="scrollToTop"><img src="./asset/up-arrow.svg" class="rounded rounded-circle" alt="Up"></a>
+    <?php include './includes/html/footer.html'; ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./script/scrollButton.js"></script>
     <script src="./script/subscribe.js"></script>
-    <script>
-        
-    </script>
+
 </body>
 </html>
