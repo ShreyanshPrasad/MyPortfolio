@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-md-6 pt-4 about-brief">
                     <h2 class="quote"><i class="fa fa-quote-left" aria-hidden="true"></i> The best time for <b>new beginnings</b> is <b>now</b></h2>
-                    <p class="bio">Hey there, this is <b>Shreyansh</b>, and I <b>design and develope websites</b> for small business, I love designing websites and am looking for more opportunities to work in coding on a freelance basis. While I'm based in Jharkhand India, I help build website for people all over the world. Apart from this I also develope <b>Android applications(Java)</b> and <b>Windows application(VB.Net)</b>. So If you are looking for a Web developer or an Android/Windows developer I may help you in many ways <span class="p-1 ml-2" id="emoji">: )</span></p>
+                    <p class="bio">Hey there, this is <b>Shreyansh</b>, and I <b>design and develope websites</b> for small business, I love designing websites and am looking for more opportunities to work in coding on a freelance basis. While I'm based in Jharkhand India, I help build website for people all over the world. Apart from this I also develope <b>Android applications(Java)</b> and <b>Windows application(VB.Net)</b>. So If you are looking for a Web developer or an Android/Windows developer I may help you in many ways <span class="p-1 ml-2" id="emoji">: D</span></p>
                     <p><button class="btn btn-my">Know more</button></p>
                 </div>
                 <div class="col-md-6 boy">
